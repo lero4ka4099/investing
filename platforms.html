@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./bootstrap-4.1.1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./css/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/jquery-ui.js"></script>
+</head>
+
+<body>
+    <div class="container top">
+        <div class="row">
+            <div class="col-xl-3 logo">
+                <a href="InvestingCapital.html">
+                    <img src="images/logo_investing.png" alt="logo">
+                </a>
+            </div>
+            <div class="col-xl-1 lang"></div>
+            <div class="col-xl-8 menu">
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">О компании</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Счетчики</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Новости</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle punkts" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Платформы</a>
+                        <div class="dropdown-menu punkt">
+                            <a class="dropdown-item" href="#">Terminal MetaTrader4</a>
+                            <a class="dropdown-item" href="#">MetaTrader IOS</a>
+                            <a class="dropdown-item" href="#">MetaTrader Android</a>
+                            <a class="dropdown-item" href="#">MetaTrader WEB</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle punkts" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Инструкции</a>
+                        <div class="dropdown-menu punkt">
+                            <a class="dropdown-item" href="#">Пополнение счета</a>
+                            <a class="dropdown-item" href="#">Вывод средств</a>
+                            <a class="dropdown-item" href="#">Баланс</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">FAQ</a>
+                    </li>
+                    <li class="nav-item line">
+                        <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModallogin">Вход</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal">Регистрация</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container content">
+        <div class="row">
+            <div class="col-xl-12">
+                <nav aria-label="breadcrumb" class="map">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                            <a href="#">Главная</a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a href="#">Инструкции</a>
+                        </li>
+                        <li class="breadcrumb-item active" aria-current="page">Пополнить счет</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-12 carts">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="card-img-left" src="images/instr2.jpg" alt="Card image cap">
+                        <div class="textcard">
+                            <h5 class="card-title">Терминал</h5>
+                            <p class="card-text">Мы предлагаем нашим клиентам работать с самым практичным терминалом — платформой MetaTrader4. Данная платформа является лидирующей в торговли, ею просто пользоваться, кроме того, она оснащена множеством полезных инструментов. Этот терминал подходит каждому трейдеру.
+
+							Судите сами, наличие удобного интерфейса, универсальность функционала, легкость в использовании новичками и опытными пользователями, многоязычность, возможность визуализировать изменения рынка и колебания цен, присутствие торговых роботов для автоматизации сделок — это только малый перечень преимуществ MT4.
+
+							Кстати, в программе есть возможность включать в платформу советчиков, что созданы с использованием языка MQL MT4.
+
+							MetaTrader4 отлично защищает от кибер-атак и взломов благодаря шифрованию всех данных. 
+ 
+							<span class="hidden-text">MT4 — это универсальная платформа, поскольку дает возможность осуществлять трейдинг акциями, металлами, валютными парами и сырьем. А благодаря своей простейшей настройке она способна адаптироваться под трейдеров, терминал легко устанавливается на любой девайс не перегружая его.
+
+							Загружайте MetaTrader4, начинайте вести торговлю и ловите все ее плюсы
+</span>
+                                <a class="show-btn" id="open">Подробнее</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img class="card-img-left" src="images/instr2.jpg" alt="Card image cap">
+                        <div class="textcard">
+                            <h5 class="card-title">Трейдер IOS и Android</h5>
+                            <p class="card-text">Если вы торгуете валютными парами, CFD, фьючерсными контрактами, мобильный трейдинг точно для вас! Не нужна привязка к определенному месту или времени. Чтобы начать пользоваться терминалом, установите его на свой телефон или планшет. Это позволит вам торговать и получать оперативную информацию круглосуточно. 
+
+							Рынок Форекс станет более чем открытым с MT4 Mobile. Имея любой гаджет, вы можете установить себе приложение и начать торговать прямо сейчас! Ведь во всех мобильных версиях присутствуют графики котировок, а также аналитические инструменты, набор ордеров для торговли. Эта популярная платформа позволит каждому торговать в один клик.
+
+							С помощью MetaTrader вы можете торговать на обеих платформах (IOS и Android). Также вы можете контролировать состояние торгового счета, отслеживать свои сделки, как покупать, так и продавать финансовые инструменты. 
+							<span class="hidden-text"> Плюсы MT4 Mobile: мультиязычность, возможность торговать автоматически, безопасность сделок, удобный интерфейс, максимальный набор настроек, высокая скорость исполнения ордеров и многое другое. 
+							</span>
+                                <a class="show-btn" id="open">Подробнее</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img class="card-img-left" src="images/instr2.jpg" alt="Card image cap">
+                        <div class="textcard">
+                            <h5 class="card-title">Trader Web</h5>
+                            <p class="card-text">Давно искали проверенный и безопасный инструмент для ведения торговли? Тогда представляем 	вам WebMT4. Торговать реально используя различные браузеры, а также операционные системы. Для того, чтобы начать пользоваться платформой через веб-версию, авторизуйтесь в платформе. Больше ничего не нужно. 
+
+								WebMT4 имеет такие плюсы: обновления котировок в реальном времени, наличие доступа к истории операций, возможность совершать торговые операции онлайн, торговля в одно нажатие. 
+								<span class="hidden-text">Используйте веб-версию, ведь она легка в использовании и надежна, поэтому и незаменима. Торговля с ней безопасна, а ваш торговый счет будет доступен на любом континенте, вам нужно только активное подключение к интернету. Кстати, каждая сделка синхронизируется с учетной записью, поэтому позже вы можете продолжить торговлю</span>
+                                <a class="show-btn" id="open">Подробнее</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img class="card-img-left" src="images/instr2.jpg" alt="Card image cap">
+                        <div class="textcard">
+                            <h5 class="card-title">Trader Mac</h5>
+                            <p class="card-text">Хотя MT4 был разработан под Windows, решение для клиентов с девайсами от Apple все же имеется. Вы легко можете осуществлять торговлю в любом веб-браузере или используя мобильное приложение. <span class="hidden-text"> Если вы хотите попробовать установить Metatrader 4 на Mac, вам нужно придерживаться инструкций. Сперва установите приложение WineBottler. Для этого вам нужно: загрузить Wine Application здесь, установить его на ПК, после запустите исполняемые файлы для Windows на Mac. После этого установите MT4, запуская его с приложением Wine. При трудностях с установкой обращайтесь за помощью к менеджеру аккаунта</span>
+                                <a class="show-btn" id="open">Подробнее</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container footer">
+            <div class="row">
+                <div class="col-xl-4">
+                    <div class="footerleft">
+                        <div class="logo">
+                            <a href="#">
+                                <img src="images/logo_investing.png" alt="logo">
+                            </a>
+                        </div>
+                        <p>Операции, которые предлагается совершать на данном сайте, могут расцениваться, как "Операции с высоким
+                            уровнем риска". Их совершение небезопасно. При покупке на данном сайте услуг и финансовых инструментов,
+                            существует вероятность, что вы понесете финансовые потери или даже полностью потеряете средства,
+                            имеющиеся на вашем счете.</p>
+                        <p class="spin">Поддержка: thelp.qp@gmail.com</p>
+                    </div>
+                </div>
+                <div class="col-xl-6 offset-md-2">
+                    <div class="footerricht">
+                        <div class="footermenu">
+                            <ul class="nav nav-pills">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">О компании</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Счетчики</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Новости</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Платформы</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Инструкции</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">FAQ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Контакты</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Обучение</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Бонусы</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Демо трейдинг</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Условия работы</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <p>ООО «Альпари-Брокер». Имеет лицензии на брокерскую деятельность, деятельность по осуществлению доверительного
+                            управления и деятельность дилера в соответствии с Федеральным законом №39-ФЗ «О рынке ценных
+                            бумаг». Лицензии ФСФР России № 016-12915-100000, № 016-12917-010000 и № 016-12919-001000. Является
+                            членом СРО НАУФОР, свидетельство № 000774. Входит в реестр лицензированных дилеров в разделе
+                            профессиональных участников рынка ценных бумаг на официальном сайте Центрального Банка Российской
+                            Федерации. ОГРН: 1157746930582 ИНН: 9717003523</p>
+                        <p class="spin">Личная информация конфиденциальна и не передается 3-м лицам.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--modal-->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content back">
+                    <form>
+                        <div class="forma">
+                            <div class="modal-header lines">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control inputst" id="name" placeholder="Имя">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control inputst" id="firstname" placeholder="Фамилия">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control inputst" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control inputst" id="number" placeholder="Номер">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control inputst" id="cantry" placeholder="Страна">
+                            </div>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label chv" for="exampleCheck1">I'm 18 years and something about cookies
+                                </label>
+                            </div>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck2">
+                                <label class="form-check-label chv" for="exampleCheck2">One more checkbox</label>
+                            </div>
+                            <div class="text-center test">
+                                <button type="submit" class="btn btn-primary reg">Регистрация</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModallogin" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content back">
+                    <form>
+                        <div class="forma">
+                            <div class="modal-header lines">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control inputst" id="exampleInputEmail2" aria-describedby="emailHelp" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control inputst" id="exampleInputPassword1" placeholder="Password">
+                            </div>
+                            <div class="form-group help">
+                                <small id="emailHelp" class="form-text text-muted" <a href="#">Забыли пароль?</a>
+                                </small>
+                            </div>
+                            <div class="text-center test">
+                                <button type="submit" class="btn btn-primary reg">Вход</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- modal-->
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $(".hidden-text").hide();
+            $(".show-btn").click(function () {
+                $(this).parents(".card-text").children(".hidden-text").show("slow");
+                $(this).parents(".card-text").children(".hidden-text").css('display', 'inline');
+                $(this).parents(".card-text").children(".show-btn").hide();
+            });
+        });
+    </script>
+</body>
+
+</html>
+<!--                    <div class="main">
+                        <ul>
+                        <li><a href="#">test</a></li>
+                            <li style="float: left"><a href="#">test</a></li>
+                            <li><a href="#">test</a></li>
+                            <li><a href="#">test</a></li>
+                            <li><a href="#">test</a></li>
+                            <li><a href="#">test</a></li>
+
+                        </ul>
+                    </div>-->
